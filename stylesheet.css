@@ -32,7 +32,8 @@ section {
     margin: 40px auto;
     border-radius: 1vw 5vw;
     padding: 30px;
-    background-color: blanchedalmond;
+    background:linear-gradient( rgb(255, 239, 215),rgb(255, 239, 215));
+    box-shadow: -1px 3px 2px 2px rgba(0,0,0,.4);
 }
 
 .container {
