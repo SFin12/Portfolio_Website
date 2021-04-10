@@ -111,7 +111,7 @@ header::before {
 }
 
 
-header {
+.background {
     width: 95%;
     display: flex;
     justify-content: center;
@@ -126,6 +126,23 @@ header {
     border-radius: 1vw 5vw;
 }
 
+.background2 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 80px auto 40px;
+    background-image: url(./assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    z-index: 0;
+    border-radius: 1vw 5vw;
+    
+    
+}
+
 #header {
     z-index: 2;
     font-size: 1em;
@@ -136,6 +153,7 @@ header {
 .about {
     flex-direction: column;
     justify-content: flex-end;
+
 }
 
 .about p{
