@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <script type="text/javascript" src="script.js" async></script>
-    
+
 </head>
 
 <body id="top">
@@ -21,7 +21,7 @@
     <!--Top bar with links to same page-->
     <nav>
         <div class="container">
-            <div id="#name">
+            <div id="name">
                 <a href="#">Sean Finegan</a>
             </div>
             <div id="nav-links">
@@ -40,10 +40,10 @@
     </nav>
 
     <!--Header with css background image and title-->
-    <header class="background">
+    <header class="background background-common">
         <div id="header">
             <h1>Developer Portfolio</h1>
-            
+
         </div>
     </header>
     <main>
@@ -190,13 +190,39 @@
             </div>
         </section>
         <section id="projects">
+            <h1>Projects</h1>
             <div class="container">
-                
+
             </div>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <form class="form">
+                <div class="input">
+                    <label for="name">Name</label>
+                    <input type="text" id="sender" placeholder="Name">
+                </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <div class="input">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="subject">
+                </div>
+                <div class="input">
+                    <label for="message">Message</label>
+                    <textarea type="textarea" id="message" placeholder="message"></textarea>
+                </div>
+                <div class="input submit">
+                    <input type="submit" id="submit" value="submit">
+                </div>
+                
+            </form>
         </section>
     </main>
 
-    
+
 </body>
 
 </html>
