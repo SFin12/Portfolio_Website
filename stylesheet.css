@@ -117,6 +117,7 @@ header::before {
     align-items: center;
     position: relative;
     margin: 80px auto 40px;
+    background-image: url(./assets/stephen-leonardi-YVcg27FuJzs-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -124,13 +125,6 @@ header::before {
     border-radius: 1vw 5vw;
 }
 
-.background {
-    background-image: url(./assets/stephen-leonardi-YVcg27FuJzs-unsplash.jpg);
-}
-
-.background2 {
-    background-image: url(./assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg) !important;  
-}
 
 #header {
     z-index: 2;
@@ -214,39 +208,44 @@ header::before {
 
 /* experience level for each languate.  Change width % to mimic experience level with 100% being mastery */
 
-.html {
+.bar-fill {
     height: 100%;
+    border-radius: 0px 3vw 3vw 0px;
+}
+
+.html {
+    
     background-image: linear-gradient(to right,rgb(0, 250, 250),rgb(0, 130, 250)); /* double the width # and subtract from 250 and update the second color middle number with that value */
     width: 60%; /* increase with experience */
-    border-radius: 0px 3vw 3vw 0px;
+   
 }
 
 .css {
-    height: 100%;
+ 
     background-image: linear-gradient(to right,rgb(0, 250, 250),rgb(0, 150, 250));
     width: 50%;
-    border-radius: 0px 3vw 3vw 0px;
+
 }
 
 .javascript {
-    height: 100%;
+  
     background-image: linear-gradient(to right,rgb(0, 250, 250),rgb(0, 170, 250));
     width: 40%;
-    border-radius: 0px 3vw 3vw 0px;
+  
 }
 
 .node {
-    height: 100%;
+  
     background-image: linear-gradient(to right,rgb(0, 250, 250),rgb(0, 190, 250));
     width: 30%;
-    border-radius: 0px 3vw 3vw 0px;
+   
 }
 
 .python {
-    height: 100%;
+ 
     background-image: linear-gradient(to right,rgb(0, 250, 250),rgb(0, 150, 250));
     width: 60%;
-    border-radius: 0px 3vw 3vw 0px;
+ 
 }
 
 
@@ -362,7 +361,7 @@ textarea {
     }
 
 
-    header {
+    .background-common {
         padding-top: 10%;
         align-items: flex-start;
         height: 375px;
@@ -381,8 +380,7 @@ textarea {
     }
 
     .bar {
-        height: 2vw;
-        
+        height: 2vw;   
     }
 
     svg {

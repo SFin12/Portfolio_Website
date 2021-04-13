@@ -1,7 +1,3 @@
-// hook on dom loaded event
-window.addEventListener('DOMContentLoaded', (event) => {
-    
-});
 setup();
 
 var App = {
@@ -19,11 +15,13 @@ var App = {
 function setup(){
     document.querySelector("h1").onclick = function(){
         var content = document.getElementsByClassName(App.Assets.BackgroundClass)[0];
-        
-        if (content.style.backgroundImage == App.Assets.Images.Background1) {
-            content.style.backgroundImage = App.Assets.Images.Background2;
-        } else {
+        console.log(content);
+        console.log(content.style.backgroundImage);
+        console.log(App.Assets.Images.Background1.substr(7));
+        if (content.style.backgroundImage.includes(App.Assets.Images.Background2.substr(7))) {
             content.style.backgroundImage = App.Assets.Images.Background1;
+        } else {
+            content.style.backgroundImage = App.Assets.Images.Background2;
         }
     }
 }
