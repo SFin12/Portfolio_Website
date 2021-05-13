@@ -11,7 +11,6 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to right,rgb(0, 71, 88),rgb(0, 37, 71));
     margin: 0 auto;
     max-width: 1600px;
     position: relative;
