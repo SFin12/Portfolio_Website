@@ -2,21 +2,23 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Sean Finegan's Portfolio Website</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
     <script type="text/javascript" src="script.js" async></script>
-
 </head>
 
 <body id="top">
     <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
 
     <!--Top bar with links to same page-->
     <nav>
@@ -43,25 +45,31 @@
     <header class="background-common">
         <div id="header">
             <h1>Developer Portfolio</h1>
-
         </div>
     </header>
     <main>
         <section id="about">
             <h2>About Me</h2>
             <div class="container about">
-                <p>I've been a teacher for about 12 years. I've had some experience with all
-                    grade levels but have spent most of my time teaching at the secondary level.
-                    I attained my BS degree and teaching credentials through Sacramento State and have taken
-                    continuation courses through a variety of universities. I'm credentialed
-                    to teach Science and Physical Education and have enjoyed coaching
-                    s several sports over the years.</p>
+                <p>
+                    I've been a teacher for about 12 years. I've had some experience
+                    with all grade levels but have spent most of my time teaching at the
+                    secondary level. I attained my BS degree and teaching credentials
+                    through Sacramento State and have taken continuation courses through
+                    a variety of universities including a technology course on google
+                    drive. I'm credentialed to teach Science and Physical Education and
+                    have enjoyed coaching s several sports over the years.
+                </p>
 
-                <p>I've always had a nerdy side that loved technology and board games. When
-                    I discovered programming I was hooked from the first "Hello World". I love
-                    the problem solving and creative aspects of programming along witht the
-                    detail and precision that is required. My goal is to eventually teach coding
-                    classes or get a job in the industry.</p>
+                <p>
+                    I've always had a nerdy side that loved technology and board games.
+                    When I discovered programming I was hooked from the first "Hello
+                    World". I love the problem solving and creative aspects of
+                    programming along with the detail and precision that is required. My
+                    goal is to eventually teach coding classes or get a job in the
+                    industry. I'm currently taking courses on Codecademy, Udemy, and
+                    reading several books on computer science
+                </p>
             </div>
         </section>
         <section id="experience">
@@ -81,7 +89,6 @@
                 </div>
             </div>
             <div class=".container icons">
-
                 <!--html 5 icon-->
                 <div class="container chart">
                     <svg viewBox="0 0 128 128">
@@ -99,10 +106,8 @@
                         </path>
                     </svg>
                     <div class="bar">
-                        <div class="bar-fill html">
-                        </div>
+                        <div class="bar-fill html"></div>
                     </div>
-
                 </div>
 
                 <!--css 3 icon-->
@@ -193,15 +198,24 @@
         <section id="projects">
             <h1>Projects</h1>
             <div class="container projects">
-                <div class="project-links">
-                    <a href="https://sfin12.github.io/Excursion/">Excursion</a>
-                    <p>Codecademy project</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://sfin12.github.io/Responsive_club_design/">Pair Programming Club</a>
-                    <p>Responsive web design practice</p>
-                </div>
-
+                <ul>
+                    <li>Google app script for google sheets to auto-update the date</li>
+                    <li>
+                        Google app script for google forms to auto-grade text answers
+                    </li>
+                    <li>Football boardgame using pygame</li>
+                    <li>
+                        Flash card generator (dynamic website) using flask and sqlite3 for
+                        backend
+                    </li>
+                    <li>
+                        <a href="https://sfin12.github.io/Excursion/">Excursion project (static website)</a>
+                    </li>
+                    <li>
+                        <a href="https://sfin12.github.io/Responsive_club_design/">Pair programming club (static
+                            website) responsive web design</a>
+                    </li>
+                </ul>
             </div>
         </section>
         <section id="contact">
@@ -209,29 +223,26 @@
             <form class="form">
                 <div class="input">
                     <label for="name">Name</label>
-                    <input type="text" id="sender" placeholder="Name">
+                    <input type="text" id="sender" placeholder="Name" />
                 </div>
                 <div class="input">
                     <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Email">
+                    <input type="email" id="email" placeholder="Email" />
                 </div>
                 <div class="input">
                     <label for="subject">Subject</label>
-                    <input type="text" id="subject" placeholder="subject">
+                    <input type="text" id="subject" placeholder="subject" />
                 </div>
                 <div class="input">
                     <label for="message">Message</label>
                     <textarea type="textarea" id="message" placeholder="message"></textarea>
                 </div>
                 <div class="input submit">
-                    <input type="submit" id="submit" value="submit">
+                    <input type="submit" id="submit" value="Submit" />
                 </div>
-                
             </form>
         </section>
     </main>
-
-
 </body>
 
 </html>
